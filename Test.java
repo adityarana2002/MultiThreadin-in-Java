@@ -3,5 +3,6 @@ class Test{
         // main thread starts executing
         // This is the entry point of the Java application
         System.out.println("Hello, World!"); 
+        System.out.println(Thread.currentThread().getName());
     }
 }
