@@ -13,5 +13,6 @@ public class Main {
         Thread t2 = new Thread(task , "Customer 2");
         t1.start();
         t2.start();
+        System.out.println("Hello there");
     }
 }
